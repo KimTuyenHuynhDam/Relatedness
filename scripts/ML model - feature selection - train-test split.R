@@ -141,8 +141,8 @@ X <- ml_data %>%
 X_scaled <- scale(X)
 y <- ml_data$Relatedness
 
-# Split data into 80% train and 20% test set
 
+# Split data into 80% train and 20% test set
 
 
 train_index <- createDataPartition(y, p = 0.8, list = FALSE)
